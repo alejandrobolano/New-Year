@@ -13,7 +13,7 @@ const Readme: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-red-100 to-green-100 flex flex-col p-4 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-purple-100 flex flex-col p-4 relative overflow-hidden">
       <div className="container mx-auto px-4 py-8">
         <div className="markdown-body bg-black p-6 md:p-10 rounded-lg shadow-md">
           <ReactMarkdown>{content}</ReactMarkdown>
