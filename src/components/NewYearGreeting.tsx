@@ -7,6 +7,11 @@ interface NewYearGreetingProps {
 }
 
 export const NewYearGreeting: React.FC<NewYearGreetingProps> = ({ recipient, sender }) => {
+  const capitalizeFirstLetter = (str: string): string => {
+    if (!str) return "";
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
+
   return (
     <div className="text-center">
       <div className="flex justify-center items-center gap-4 mb-8">
@@ -18,7 +23,7 @@ export const NewYearGreeting: React.FC<NewYearGreetingProps> = ({ recipient, sen
         ¡Feliz 2025!
       </h1>
       <p className="text-2xl md:text-4xl text-purple-700 mb-8">
-        {recipient}
+        {capitalizeFirstLetter(recipient)}
       </p>
       <div className="space-y-4 text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
         <p>
@@ -30,7 +35,7 @@ export const NewYearGreeting: React.FC<NewYearGreetingProps> = ({ recipient, sen
           en este viaje llamado 2025.
         </p>
         <p className="text-xl md:text-2xl font-semibold mt-6 text-blue-600">
-          Con los mejores deseos, {sender}
+          Con los mejores deseos, {capitalizeFirstLetter(sender)}
         </p>
       </div>
     </div>
