@@ -4,7 +4,7 @@
 
 El código es simple y es creado con Vite + React + TS + Tailwind CSS
 
-Este es el sitio web: [Feliz Navidad](https://felizannonuevo.vercel.app) y es fácil de adaptarlo para poder regalarle una **Feliz Navidad** a cualquier persona.
+Este es el sitio web: [Feliz Año Nuevo](https://ahappynewyear.vercel.app) y es fácil de adaptarlo para poder regalarle un **Feliz Año Nuevo** a cualquier persona.
 
 ## Cambios para adaptar el contenido
 Hay dos opciones:
@@ -19,8 +19,8 @@ Hay dos opciones:
 
 #### Ejemplo 
  
-* ```https://felizannonuevo.vercel.app?n=amigo%20especial&a=autor%20especial```
-* ```https://felizannonuevo.vercel.app?name=amigo%20especial&author=autor%20especial```
+* ```https://ahappynewyear.vercel.app?n=amigo%20especial&a=autor%20especial```
+* ```https://ahappynewyear.vercel.app?name=amigo%20especial&author=autor%20especial```
 * Primeramente antes de los parámetros es importante poner el signo de cierre de interrogación ```?``` y separar los parámetros mediante ```&```, siendo algo así ```?n=destinatario&a=remitente```
 
 > (no hace falta poner %20 para separar en la URL)

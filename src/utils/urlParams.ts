@@ -13,7 +13,7 @@ export const getNamesFromUrl = (): Names => {
 
 
 export const createShareableUrl = (recipient: string, sender: string): string => {
-  const baseUrl = 'https://felizannonuevo.vercel.app/'; //domain
+  const baseUrl = 'https://ahappynewyear.vercel.app/'; //domain
   const encodedRecipient = encodeURIComponent(recipient);
   const encodedSender = encodeURIComponent(sender);
   return `${baseUrl}?n=${encodedRecipient}&a=${encodedSender}`;

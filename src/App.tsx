@@ -12,7 +12,7 @@ function App() {
   const names = getNamesFromUrl();
 
   useEffect(() => {
-    document.title = `¡Feliz Navidad, ${names.recipient}!`;
+    document.title = `¡Feliz Año Nuevo, ${names.recipient}!`;
   }, [names.recipient]);
 
   return (
